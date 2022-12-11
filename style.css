@@ -1,0 +1,119 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.program {
+  width: 336px;
+  min-height: 236px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+
+.listhead {
+  width: 100%;
+  height: 28px;
+  background-color: #ffdc40;
+  margin-bottom: 17px;
+  border-radius: 10px 10px 0 0;
+}
+
+.heading {
+  width: 164px;
+  height: 34px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+
+.icons {
+  display: flex;
+  justify-content: end;
+  margin-right: 30px;
+  margin-bottom: 12px;
+}
+
+.icon2,
+.icon3 {
+  display: none;
+}
+
+.listmain {
+  width: 286px;
+  min-height: 40px;
+  margin: 0 22px 0 28px;
+  margin-bottom: 18px;
+}
+
+.listbody {
+  width: 286px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 3px;
+}
+
+.inp {
+  width: 230px;
+  height: 36px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 2px 27px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+
+.delete {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #c4c4c4;
+  border-radius: 100px;
+  font-size: 12px;
+  position: absolute;
+  right: 30px;
+  color: #c4c4c4;
+  background-color: white;
+}
+
+.delete:hover {
+  color: white;
+  background-color: #833ae0;
+}
+
+.bttns {
+  width: 150px;
+  height: 42px;
+  border-radius: 71px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-bottom: 19px;
+}
+
+.add {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #c4c4c4;
+  border-radius: 71px;
+  background-color: #833ae0;
+  color: white;
+  padding-left: 30px;
+}
+
+.plus {
+  width: 28%;
+  height: 90%;
+  border: 1px solid #9953f1;
+  border-radius: 71px;
+  position: absolute;
+  left: 1px;
+  margin-top: 2px;
+  background-color: #9953f1;
+  color: white;
+}
